@@ -53,3 +53,39 @@ The main objective of this project is to analyze transactional sales data from W
 │                         │  • Dynamic KPI Cards & Trend Lines
 │                         │  • Category & Location Slicers
 └─────────────────────────┘
+
+
+### How to use this project:
+1.Clone the repository
+
+2.Open Walmart Sales Analysis.ipynb notebook
+
+This file contains:
+1.Data Ingestion
+2.Data  Formatting
+3.Null Handling
+4.Feature Engineering
+5.Exploratory Data Analysis
+
+Connection to SQL Database
+
+3.Load the data from Python notebook into PostgreSQL
+
+1.Create a database(walmart) in Pgadmin
+2.Run Python code to load data into walmart database
+
+Open the files as:
+1.City Performance.sql
+2.Category Performance.sql
+3.Sales by Time of Day.sql
+4.Sales by Payment Method.sql
+5.Rank Product Categories.sql
+
+Answer Business Questions using SQL Queries
+
+4.Connect the SQL Database to Power BI
+
+Open Walmart Sales & Revenue Dashboard.pbix
+
+Create interactive dashboard in Power BI
+
