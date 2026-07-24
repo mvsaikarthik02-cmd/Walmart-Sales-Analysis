@@ -55,7 +55,7 @@ The main objective of this project is to analyze transactional sales data from W
 └─────────────────────────┘
 
 
-### How to use this project:
+How to use this project:
 1.Clone the repository
 
 2.Open Walmart Sales Analysis.ipynb notebook
