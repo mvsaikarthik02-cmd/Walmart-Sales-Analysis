@@ -1,4 +1,5 @@
 # Walmart Sales Analysis
+
 ###Project Overview:
 
 The main objective of this project is to analyze transactional sales data from Walmart to uncover performance insights across different cities, product categories, payment methods, and times of day. By leveraging Python for data processing, PostgreSQL for analytical querying, and Power BI for interactive visualization, this project aims to support data-driven business decisions for revenue optimization and sales forecasting.
@@ -11,9 +12,7 @@ The main objective of this project is to analyze transactional sales data from W
 * **Advanced Querying:** Executed SQL scripts to extract business insights (city performance, time-of-day trends, product rankings).
 * **Data Visualization:** Built an interactive **Power BI Dashboard** to visualize key business metrics.
 
-
 ### Key Questions Answered
-
 * **Branch & City Performance:** Which store locations and cities generate the highest total revenue, profit, and average order value?
 * **Category Breakdown:** Which product categories yield the highest sales volume, profit margins, and customer ratings?
 * **Category Rankings:** How do product category sales rank within each individual city?
