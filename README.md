@@ -1,4 +1,4 @@
-### Walmart Sales Analysis
+
 
 <img width="665" height="383" alt="image" src="https://github.com/user-attachments/assets/cc6b8f5d-d832-447c-900e-c76a67ddf2b9" />
 
