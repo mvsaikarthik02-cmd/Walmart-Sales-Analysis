@@ -23,3 +23,33 @@ The main objective of this project is to analyze transactional sales data from W
 * **Targeted Marketing & Promotions:** Helps identify high-performing time slots and preferred payment methods to run localized discounts and marketing campaigns.
 * **Inventory & Stock Management:** Provides insight into category rankings per city, enabling store managers to optimize inventory based on regional demand.
 * **Profitability Insights:** Highlights top revenue-generating categories versus those with higher profit margins, aiding strategic pricing and product placement.
+
+## 🔄 Project Architecture & Workflow
+
+```text
+┌─────────────────────────┐
+│  Walmart Sales Dataset  │ (Raw CSV File)
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│ Walmart Sales Analysis  │ (Python / Pandas / Jupyter Notebook)
+│                         │  • Data Cleaning & Null Handling
+│                         │  • Feature Engineering (Total Revenue, Profit Margin, Time of Day)
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│   PostgreSQL Database   │ (SQL Analysis Scripts)
+│                         │  • City & Branch Performance Query
+│                         │  • Product Category Ranking Query
+│                         │  • Time-of-Day Sales Trend Analysis
+│                         │  • Payment Method Profiling Query
+└───────────┬─────────────┘
+            │
+            ▼
+┌─────────────────────────┐
+│    Power BI Dashboard   │ (Interactive Visualizations)
+│                         │  • Dynamic KPI Cards & Trend Lines
+│                         │  • Category & Location Slicers
+└─────────────────────────┘
